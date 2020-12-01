@@ -1,0 +1,36 @@
+
+#ifndef _AX_TRSYSID_H
+#define _AX_TRSYSID_H
+
+enum TRSYSID
+{
+    TRSYS_GROUPID   = 0xffff,
+
+    TRSYS_OK        = 1,
+    TRSYS_CANCEL    = 2,
+    TRSYS_YES       = 3,
+    TRSYS_NO        = 4,
+    TRSYS_SAVE      = 5,
+    TRSYS_SAVENO    = 6,
+    TRSYS_ABORT     = 7,
+    TRSYS_OPEN      = 8,
+    TRSYS_FILENAME  = 9,
+    TRSYS_TYPE      = 10,
+    TRSYS_SIZE      = 11,
+    TRSYS_MODIFIED_DATE     = 12,
+    TRSYS_SHOW_HIDDENFILES  = 13,
+    TRSYS_NOTSHOW_MESSAGE   = 14,
+    TRSYS_FONTNAME  = 15,
+    TRSYS_FONTSIZE  = 16,
+    TRSYS_FONTSTYLE = 17,
+
+    TRSYS_TITLE_OPENFILE    = 100,
+    TRSYS_TITLE_SAVEFILE    = 101,
+    TRSYS_TITLE_SELECTDIR   = 102,
+    TRSYS_TITLE_COLORDIALOG = 103,
+    TRSYS_TITLE_FONTDIALOG  = 104,
+
+    TRSYS_MES_OVERWRITE     = 200
+};
+
+#endif

@@ -1,0 +1,692 @@
+# System
+[65535]
+1=OK
+2=Cancel
+3=Yes
+4=No
+5=Save
+6=NoSave
+7=Stop
+8=Open
+9=Filename
+10=Type
+11=Size
+12=Modified Date
+13=Show hidden files
+14=Don't show this message again
+15=Font Name
+16=Size
+17=Style
+100=Open File
+101=Save File
+102=Select Directory
+103=Choose Color
+104=Choose Font
+200=File already exists.\nDo you want to save overwrite it?
+
+# Word
+[2000]
+0=Width
+1=Height
+2=Color
+3=Opacity
+4=Name
+5=Disable reference layer
+6=Use brush opacity
+7=Antialiasing
+8=Delete
+9=Position
+10=Brush
+
+# Message
+[2001]
+0=Failed to save
+1=Delete it. Are you sure?
+2=All the items below this folder are deleted.\nAre you sure?
+3=Failed to paste
+4=Failed to load
+5=Failed
+6=You are trying to save by format other AzDrawing.\nDo you want to save by ADW?
+7=Save it. Are you sure?
+8=Image size too large
+9=Can't open file
+10=This format can not be read
+11=The image has been changed.\nSave?
+12=This key is already in use
+13=Clear all. Are you sure?
+14=Remove the settings for this device.\nIt is necessary to restart the software if you want to reconfigure.\nAre you sure?
+15=Clear the settings for this device.\nAre you sure?
+16=Please specify a texture in the Options window
+
+# Help
+[2002]
+0=[+Shift: disable reference layer]
+1=[+Shift: 45 degree]
+2=[Click: input text] [L-Click in text input: move position]
+3=[+Shift: horz] [+Ctrl: vert] [+Alt: only current layer]
+4=[+Shift: 45 degree]
+5=[+Ctrl: delete area] [Shift+Drag: move image] [Ctrl+Shift+Drag: move image(overwrite)]
+6=[None: color of current layer] [+Shift: color of blending all layers]
+100=[Shift+Drag: change brush size] [+Ctrl: set rule parameter]
+101=[+Shift: 1px eraser] [+Ctrl: set rule parameter] *If eraser brush drawing brush
+102=[L-DblClk/R-Clk/Enter: draw] [ESC: cancel] [+Shift: 45 degree]
+201=[+Shift: 45 degree]
+202=[+Shift: square]
+203=[+Shift: perfect circle]
+204=[+Shift: 45 degree] [L-DblClk/R-Clk/Enter: end] [BS: connect with starting point]
+205=[+Shift: 45 degree] [L-DblClk/R-Clk/Enter: end]
+206=[R-Click/ESC/Enter: cancel]
+207=[Ctrl+L-Clk: point of pressure zero] [L-DblClk/R-Clk/Enter: draw] [BS: return to previous]
+
+# Menu
+[0]
+1=File(&F)
+2=Edit(&E)
+3=Select(&S)
+4=Filters(&F)
+5=View(&V)
+6=Options(&O)
+7=Help(&H)
+10000=New(&N)\tCtrl+N
+10001=Open(&O)\tCtrl+O
+10002=Save(&S)\tCtrl+S
+10003=Save As(&W)\tCtrl+W
+10004=Export(&E)\tCtrl+E
+10005=Export by Format(&F)
+10006=Recent Files(&R)
+10007=Exit(&X)
+10050=ADW (AzDrawing)
+10051=APD (AzPainter)
+10052=PSD (PhotoShop)
+10053=BMP
+10054=PNG
+10055=JPEG
+10056=PNG with Alpha (32bit)
+10057=None Layer PSD (1bit)
+10058=None Layer PSD (8bit:Grayscale)
+10100=Undo(&Z)\tCtrl+Z
+10101=Redo(&Y)\tCtrl+Y
+10102=Canvas Size(&S)
+10103=Scale Canvas(&Z)
+10104=DPI Value(&D)
+10105=Flip Layer Horizontally(&H)
+10106=Flip All Layers Horizontally(&R)
+10107=Drawing with Specified Coordinates(&P)
+10200=Deselect(&D)\tCtrl+D
+10201=Inverse(&I)\tCtrl+I
+10202=All(&A)\tCtrl+A
+10203=Copy(&C)\tCtrl+C
+10204=Cut(&X)\tCtrl+X
+10205=Paste onto New Layer(&V)\tCtrl+V
+10206=Fill(&P)\tIns
+10207=Clear(&E)\tDel
+10208=Import(&O)
+10209=Export(Only Select)
+10210=Export(Select and Image)
+10300=Color(Alpha)
+10301=Blur
+10302=Render
+10303=Operate with Other Layer
+10304=Mosaic
+10305=Mosaic(Mesh)
+10306=Crystal
+10307=Noise
+10308=Edge
+10309=Half Tone
+10310=1px Dot Line Correction
+10311=Inverse
+10312=Applying Texture
+10313=Levels
+10314=Gamma Correction
+10315=Thresholding
+10316=Dithering
+10317=Blur
+10318=Gauss Blur
+10319=Motion Blur
+10320=Half Tone[1]
+10321=Half Tone[2]
+10322=Dot Lines
+10323=Plaid
+10324=Comic
+10325=Concentration Line
+10326=Flash
+10327=Solid Flash
+10328=Sea Urchin Flash
+10329=Sea Urchin Flash(Wave)
+10400=Tool Window(&T)
+10401=Layers Window(&L)
+10402=Options Window(&O)
+10403=Brushes Window(&B)
+10404=Preview Window(&P)
+10405=Image View Window(&I)
+10410=Hide Interface(&W)\tCtrl+Tab
+10411=Grid(&G)\tCtrl+G
+10412=Dividing Line(&M)\tCtrl+M
+10413=Mirror Canvas(&Q)\tCtrl+Q
+10414=Canvas Scroll Bars(&S)
+10415=Reset Canvas(&F)\tCtrl+F
+10500=Preferences(&E)
+10501=Device Settings(&D)
+10502=Keyboard Shortcut(&K)\tCtrl+K
+10503=Grid Settings(&G)
+10600=About(&A)
+
+# Image View Window Menu
+[1]
+30000=Open(&O)\tO
+30001=Next File(&N)\tRight
+30002=Prev File(&P)\tLeft
+30003=Clear(&C)\tC
+30004=Zoom In(&U)\tUp
+30005=Zoom Out(&D)\tDown
+30006=Fit Window to Image(&F)
+30007=Fit Image to Window(&W)
+30008=20%
+30009=40%
+30010=60%
+30011=80%
+30012=100%\tZ
+30013=200%
+30014=400%
+10000=This color set to color of layer
+10001=This color set to opacity of brush
+
+# Preview Window Menu
+[2]
+0=Left Button
+1=Right Button
+2=Fit Image to Window
+3=Switch to Loupe View
+4=Switch to Fixed View
+100=Scroll on Preview
+101=Scroll on Canvas
+
+# Tool Name
+[3]
+0=Brush
+1=Dot
+2=Shape Fill
+3=Shape Erase
+4=Bucket Fill
+5=Erase Opaque Area
+6=Close Fill
+7=Gradient
+8=Text
+9=Ruler
+10=Move
+11=Rotate Canvas
+12=Edit Box
+13=Select
+14=Eyedropper
+
+# Tool Window Button,Tool tips
+[4]
+0=Undo
+1=Redo
+2=Deselect
+3=Mirror Canvas
+
+# Drawing Type Name
+[5]
+0=Free
+1=Line
+2=Box
+3=Circle
+4=Continuous Straight Line
+5=Concentration Line
+6=Bezier Curve
+7=Spline Curve
+
+# Box Edit Type
+[6]
+0=Flip horizontally
+1=Flip vertically
+2=Scaleing and rotation
+3=Trimming
+
+# Option Window Tab Name
+[7]
+0=Tool
+1=Rule
+2=Texture
+3=Head/Tail
+4=Option
+
+# Layer Window Menu
+[8]
+12000=New(&N)\tCtrl+Shift+N
+12001=New From File(&I)\tCtrl+Shift+I
+12002=Copy(&C)\tCtrl+Shift+C
+12003=Delete(&D)\tCtrl+Shift+D
+12004=Clear(&X)\tCtrl+Shift+X
+12005=Drop Down(&Z)\tCtrl+Shift+Z
+12006=Combine(&B)\tCtrl+Shift+B
+12007=Combine All Visible Layers(&J)
+12008=Combine All Visible Layers to New(&F)
+12009=Move Up
+12010=Move Down
+12011=Option(&O)\tCtrl+Shift+O
+12012=Show All(&A)\tCtrl+Shift+A
+12013=Hide All(&H)\tCtrl+Shift+H
+12014=Show Only Current(&L)\tCtrl+Shift+L
+12015=Show/Hide Group Layers(&G)\tCtrl+Shift+G
+12016=Show/Hide Checked Layers(&Q)\tCtrl+Shift+Q
+12017=Save PNG with Alpha(&S)
+12018=Combine All Checked Layers(&K)
+12019=Combine by Sub(&U)\tCtrl+Shift+U
+
+# Layer Window,Tool tip
+[9]
+12000=New
+12002=Copy
+12003=Delete
+12004=Clear
+12005=Drop Down
+12006=Combine
+12009=Move Up
+12010=Move Down
+1=Menu
+
+# Layer Window,R-Clk Menu
+[10]
+0=Palette1
+1=Palette2
+2=Bucket Fill Reference Layer
+3=HiLight Color on List
+4=Mask Layer
+5=Mask by Under Layer
+6=Grouping Layers
+7=Grouped Under Layers
+
+# Painting Type
+[11]
+0=Blend
+1=Compared to Overwrite
+2=Overwrite
+3=Overwrite2
+4=Erase
+5=Blur
+
+# Select Image Bar
+[12]
+0=--- None ---
+1=-- Use by Option --
+2=--- None(Force)---
+3=--- Default ---
+
+# Brush Size / Opacity List
+[13]
+0=Add(Size)
+1=Add(Opacity)
+2=Delete\tShift+L-Clk
+100=Please enter brush size or opacity.\nIf separated by '/', can add multiple. [Ex] 1.0/2.4/100.0
+
+# Brush Menu
+[14]
+0=New Brush
+1=New Folder
+2=Delete
+3=Rename
+4=Copy
+5=Paste
+6=Copy to Clipboard(Text Format)
+100=Release Registered Brush
+101=Set "Registered Brush[1]"
+102=Set "Registered Brush[2]"
+103=Set "Registered Brush[3]"
+104=Set "Registered Brush[4]"
+105=Set "Registered Brush[5]"
+
+# Brush Window,Value
+[15]
+0=Data Type
+1=Save
+2=Size(px)
+3=Opacity
+4=Smoothing
+5=Painting
+6=Size Min(%)
+7=Opacity Min(%)
+8=Interval
+9=Random Size / Min(%)
+10=Random Pos / Max Distance
+11=Circular
+12=Rectangular
+13=Press / Size
+14=Press / Opacity
+15=Brush Image
+16=Rotation Type
+17=Angle
+18=Angle Random
+19=Texture Image
+20=Antialiasing
+21=Curve
+100=Link
+101=Manual
+200=None
+201=Strong
+202=Medium
+203=Weak
+300=Constant Angle
+301=Moving Direction
+
+# Draw Text Dialog
+[16]
+0=Text
+1=Preview
+2=Style
+3=Size
+4=Char Space
+5=Line Space
+6=Vert
+7=Monochrome
+8=Hinting
+9=Ctrl+Up/Down/Left/Right Key\nin Input Area: move 1px
+100=None
+101=Default
+102=Light
+103=Max
+
+# Scaling And Rotation Dialog
+[17]
+0=Scaling And Rotation
+1=Zoom
+2=Angle
+3=Preview
+4=High Quality Preview
+
+# File Dialog
+[18]
+0=PNG Level [0-9]
+1=JPEG Quality [1-100]
+2=Sampling Ratio
+
+# Scaling Type
+[19]
+0=Lanczos2
+1=Lanczos3
+
+############### Option Window
+
+# Dot
+[100]
+0=Thinning
+
+# Move
+[101]
+0=Current and Group Layer
+1=Only Current Layer
+2=All Layers
+
+# Rule
+[102]
+0=Angle
+1=Center Pos
+
+# Paint
+[103]
+0=Antialiasing Auto
+1=Less Than Specified Opacity
+
+# Option
+[104]
+0=Background color of Image
+
+# Gradient
+[105]
+0=Reverse
+1=Loop
+
+# Head/Tail
+[106]
+0=Line
+1=Bezier
+2=Head(%)
+3=Tail(%)
+4=Register->
+
+# Select
+[107]
+0=Color
+1=Opacity
+
+############### Dialog
+
+# Grid
+[1000]
+0=Grid Settings
+1=Grid
+2=Dividing Line
+3=Horz Division
+4=Vert Division
+
+# New Dialog
+[1001]
+0=New
+1=Registration
+2=History
+3=Defined Size
+
+# Layer Option
+[1002]
+0=Layer Option
+1=[Palette] Register by Ctrl+L-Clk or R-Clk
+
+# Select Image Dialog
+[1003]
+0=Select Image
+1=None
+2=Use by Options Win
+3=None(Force)
+4=Default
+
+# Gradient Edit
+[1004]
+0=Gradient Edit
+1=+Shift: Delete point\n+Ctrl: The between to a click position is made the present point at equal intervals.
+
+# DPI Value
+[1005]
+0=DPI Value
+1=Please input the DPI value. \nImage is no change.
+
+# Canvas Size
+[1006]
+0=Canvas Size
+1=Align
+
+# Scale Canvas
+[1007]
+0=Scale Canvas
+1=Size(px)
+2=%
+3=Keep aspect ratio
+4=Edit DPI
+5=Interpolation
+
+# Export
+[1008]
+0=Export
+1=Format
+2=Scaling
+3=Magnification
+4=Interpolation
+5=Keep aspect ratio
+
+# Keyboard Shortcut
+[1009]
+0=Keyboard Shortcut
+1=Clear All
+2=Press the key\nwhile you select the item.\n\n- Clear by space key\n- Only a single key\n\nCommand is executed\nwhen a key is pressed\nwhile the focus is\non the main window.
+
+# Device Settings
+[1010]
+0=Device Settings
+1=<Default>
+2=Delete
+3=Clear
+4=Button+Modifier Key
+5=Command/Action
+6=Key combination and decorative main operation buttons are disabled.\n(Operation corresponding to each tool is executed)
+7=Confirm the button number(Please press here)
+
+# Preferences
+[1011]
+0=Preferences
+1=Option1
+2=Option2
+3=Increase or decrease of width
+4=Directory
+5=Drawing Cursor
+1000=Startup image width
+1001=Startup image height
+1002=Canvas background color
+1003=Number of undo [2-400]
+1004=Font of sub window (*)
+1005=(*) Applied the next time you start
+1006=Window type of sub-window (*)
+1500=ToolBox
+1501=Normal window
+2000=Confirm overwriting
+2001=Display message when save by non-ADW
+2002=Undo all data can be output to file
+2003=Main Window, auto active
+2004=When PNG read, ignore the alpha value
+3000=One step in scaling(less than 100%)
+3001=One step in scaling(100% or more)
+3002=One step in rotation
+3003=One step in brush size(when drag)
+4000=Texture Image Directory(user)
+4001=Brush Image Directory(user)
+5000=Hot Spot Position
+5001=Load Image
+5002=Default
+5003=Only black and white colors and transparency.\nBlack is RGB(0,0,0),White is (255,255,255),\nplease apply in other colors are transparent part.\nWidth and height up to 1 ~ 32px.
+
+# Drawing With Secified Coordinates
+[1012]
+0=Drawing With Secified Coordinates
+1=Shape
+2=Unit
+3=Opacity
+4=Starting X
+5=Starting Y
+6=Length
+7=Angle
+8=Width
+9=Height
+10=Center X
+11=Center Y
+12=Radius
+100=Line
+101=Box
+102=Circle
+103=Fill Box
+104=Fill Circle
+200=Current Brush
+201=1px Dot Line
+202=2px Dot Line
+203=3px Dot Line
+
+####################
+
+# Filter Dialog
+[2004]
+1=Preview
+2=Clipping outside canvas
+3=Reset
+10=Gamma Value
+11=Threshold
+12=Type
+13=Size
+14=Use average color
+15=Density
+16=Grayscale
+17=Layer
+18=Operation Type
+19=Size
+20=Reference Layer
+21=Crop Source Image
+22=Strength
+23=Angle
+24=Horizon Size
+25=Vertical Size
+26=Same as vertical size horizontal size
+27=Size Min
+28=Size Max
+29=Space Min
+30=Space Max
+31=Horizon Line
+32=Vertical Line
+33=Lines Per Inch
+34=Density(%)
+35=DPI
+36=Antialiasing
+37=Radius
+38=Aspect Ratio
+39=Density
+40=Interval/Random
+41=Line Size
+42=Line Size/Random
+43=Line Length
+44=Line Length/Random
+45=Draw Type
+46=Simple Preview
+47=* If click in canvas, change the position
+48=Wave Length
+49=Tail Min(%)
+1000=Bayer2x2
+1001=Bayer4x4
+1002=Screw
+1003=Halftone
+1004=Random
+1100=Transparet -> Transparent
+1101=Opacity -> Transparent
+1102=Blend
+1103=Copy
+1104=Add
+1105=Sub
+1106=Multiply
+1200=Brush (Antialiasing)
+1201=Brush (None-Antialiasing)
+1202=1px Dot Line
+
+# Command List
+[2003]
+0=None (same default)
+1=Don't do anything
+2=Main operation (left button)
+100=Main menu commands
+101=Layer menu commands
+102=Layer extended commands
+103=Select tool
+104=Select drawing type
+105=Other commands
+106=Select registered brush
+107=Key+Operation [tool actions]
+108=Tool actions
+109=Key+Operation [drawing type actions]
+110=Drawing type actions
+111=Key+Operation [draw by registerd brush (pressure ON)]
+112=Draw by registerd brush (pressure ON)
+113=Key+Operation [draw by registerd brush (pressure max)]
+114=Draw by registerd brush (pressure max)
+115=Key+Operation [other]
+116=Other actions
+1200=Layer selection up
+1201=Layer selection down
+1202=Opacity of current layer -1
+1203=Opacity of current layer +1
+1204=Show or hide current layer
+1300=Zoom in
+1301=Zoom out
+1302=Zoom 100%
+1303=Rotate canvas to Left
+1304=Rotate canvas to Right
+1305=Reset canvas rotation
+1306=Brush selection up
+1307=Brush selection down
+2300=Move canvas
+2301=Change scaling(drag up and down)
+2302=Change brush size(drag left and right)
+2303=Change brush size of registerd[1](drag left and right)
